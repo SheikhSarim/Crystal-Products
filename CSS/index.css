@@ -119,7 +119,7 @@ header {
 .logo {
     height: 130px;
     width: 170px;
-    background-image: url('../images/Logo3.png');
+    background-image: url('../images/logo3.png');
     background-size: 100%;
     background-repeat: no-repeat;
     margin-left: auto;
@@ -236,7 +236,7 @@ header {
 .logo_m {
     height: 100px;
     width: 150px;
-    background-image: url('../images/Logo3.png');
+    background-image: url('../images/logo3.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
