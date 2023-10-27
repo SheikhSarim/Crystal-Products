@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cystal.com.pk</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/Crystal-2.png" type="x-icon">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    body {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation: animate_bg 10s infinite;
+        overflow-x: hidden !important;
+    }
+
+    @keyframes animate_bg {
+        0% {
+            background-image: url('./images/contact1.jpg');
+            background-color: rgba(0, 0, 0, 1);
+            backdrop-filter: blur(5px);
+        }
+
+        15% {
+            background-image: url('./images/contact1.jpg');
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+        }
+
+        30% {
+            background-image: url('./images/contact2.jpg');
+            background-color: rgba(0, 0, 0, 1);
+            backdrop-filter: blur(3px);
+        }
+
+        45% {
+            background-image: url('./images/contact2.jpg');
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(3px);
+        }
+
+        60% {
+            background-image: url('./images/contact3.jpg');
+            background-color: rgba(0, 0, 0, 1);
+            backdrop-filter: blur(0px);
+        }
+
+        75% {
+            background-image: url('./images/contact3.jpg');
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(0px);
+        }
+
+        90% {
+            background-image: url('./images/contact4.jpg');
+            background-color: rgba(0, 0, 0, 1);
+            backdrop-filter: blur(5px);
+        }
+
+        100% {
+            background-image: url('./images/contact4.jpg');
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+            background-position: center;
+        }
+    }
+</style>
+
+<body>
+
+    <header>
+        <div class="con">
+            <a href="index.html">
+                <div class="logo"></div>
+            </a>
+            <ul class="menu_opt">
+                <li><a class="animate_btn" href="index.html">Home</a></li>
+                <li><a class="animate_btn" href="AboutUs.html">About Us</a></li>
+                <li><a class="animate_btn" href="new_arrival.html">New Arrival</a></li>
+                <li><a class="animate_btn" href="special.html">Special Offer</a></li>
+                <li><a class="animate_btn" href="Product.html">Product</a></li>
+                <li><a class="animate_btn" href="contact.html">Contact Us</a></li>
+                <li><a class="animate_btn" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="header_m">
+        <div class="logo_m"></div>
+        <p class="brs fa-solid fa-bars"></p>
+    </div>
+    <div class="side">
+        <p class="close fa-solid fa-xmark"></p>
+        <ul class="m_opt">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="new_arrival.html">New Arrival</a></li>
+            <li><a href="special.html">Special Offer</a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="comtact.html">Contact Us</a></li>
+            <li><a href="login.html">Login <p class="cus_link fa-solid fa-user"></p> </a></li>
+        </ul>
+    </div>
+
+    <div class="Main">
+        <p id="COH">CONTACT US</p>
+        <div id="background">
+            <div class="slide">
+                <div class="side1">
+                    <form action="#" id="form">
+                        <input class="text FirstName" type="text" placeholder="First Name" required>
+                        <input class="text LastName" type="text" placeholder="Last Name" required>
+                        <input class="text Email" type="Email" placeholder="Email" required>
+                        <textarea class="text Message" name="" id="" placeholder="Message" required></textarea>
+                        <button type="submit" id="Submit">SUBMIT</button>
+                    </form>
+                </div>
+                <div class="side2">
+                    <div id="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030.6173525730499!2d67.03104603167495!3d24.92700483130154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bec9a880!2sAptech%20Computer%20Education%20North%20Nazimabad%20Center!5e0!3m2!1sen!2s!4v1688585407237!5m2!1sen!2s"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                    </div>
+                </div>
+            </div>
+            <div id="contact_info">
+
+                <p class="info"> <i class="fas fa-phone-alt"></i> +92 587 2078121</p>
+                <p class="info"> <i class="fas fa-phone-alt"></i> +92 587 4090797</p>
+                <p class="info"> <i class="fas fa-envelope"></i> Email: Info@Crystal.com</p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="f_logo"></div>
+        <div class="rr row row-cols-lg-3 row-cols-md-2 row-cols-1">
+            <div class="row c1">
+                <p class="__h">OUR SERVICE</p>
+                <ul class="f_l">
+                    <li><a href="#">Customer Care</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Customer Feedback</a></li>
+                    <li><a href="#">Terms & Policy</a></li>
+                </ul>
+            </div>
+            <div class="row c2">
+                <p class="__h">CONTACTS</p>
+                <ul class="f_l">
+                    <li><a href="#"><i class="fa-sharp fa-solid fa-location-dot"></i>SD-1, Block A North Nazimabad Town,
+                            Karachi</a></li>
+                    <li><a href="#"><i class="fa-sharp fa-solid fa-envelope"></i> Info@Crystal.com</a></li>
+                    <li><a href="#"><i class="fa-solid fa-phone"></i> +92 587 2078121</a></li>
+                    <li><a href="#"><i class="fa-solid fa-print"></i> +92 587 4090797</a></li>
+                </ul>
+            </div>
+            <div class="row c3">
+                <p class="__h">LINKS</p>
+                <ul class="f_l">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="Product.html">Product</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/" class="fa-brands fa-facebook"></a>
+            <a href="https://www.twitter.com/" class="fa-brands fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fa-brands fa-instagram"></a>
+            <a href="https://www.whatsapp.com/" class="fa-brands fa-whatsapp"></a>
+            <a href="https://pk.linkedin.com/" class="fa-brands fa-linkedin"></a>
+            <a href="https://www.pinterest.com/" class="fa-brands fa-pinterest"></a>
+        </div>
+        <p id="cpy">&copy;CRYSTALS</p>
+    </footer>
+
+    <script src="./JS/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>
