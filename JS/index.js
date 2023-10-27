@@ -17,7 +17,7 @@ $('.owl1').owlCarousel({
     dots: false,
     autoplay: true,
     autoplaySpeed: 2000,
-    navText: ["<img src='./Images/left_arrow.png' >", "<img src='./Images/right_arrow.png' >"],
+    navText: ["<img src='./images/left_arrow.png' >", "<img src='./images/right_arrow.png' >"],
     autoplayTimeout: 5000,
     autoplayHoverPause: true,
     slideTransition: 'linear',
